@@ -1,6 +1,6 @@
 # Setting up LocalDB on a Mac
 
-There is no support for the development tool "LocalDB" on Mac to spin-up and run instances of MSSQL Server locally. This can be done on Windows, but is not recommended.
+There is no support for the development tool "LocalDB" on Mac to spin-up and run instances of MSSQL Server locally.
 
 Instead, we can run a Docker container with the `SQL Azure Edge` image listening on the default SQL port, 1433, to set-up our development environment. This is practically the Mac equivalent of running the program LocalDB to spin-up MSSQL Server instances and even supports Apple Silicon chips.
 
